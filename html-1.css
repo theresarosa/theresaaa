@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    width: 1520px;
+}
+
+.siscamp{
+    position: absolute;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+
+
+.header {
+    background-color: #0C2A43;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    height: 25px;
+    position: relative;
+}
+
+.logo{
+    padding-left: 80px ;
+}
+.logo img{
+    width: 25px;
+}
+.link-home,  img{
+    width: 20px;
+}
+
+.profile{
+    position: absolute;
+    right: 0; 
+    padding-right: 150px;
+    top: 50%;
+    margin-top: -13px; 
+}
+
+.profile span{
+    margin-left: 1px; 
+    margin-right: 1px;
+}
+
+
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.arrow{
+    background-color:#0C2A43;
+    border: none;
+}
+
+.profile-img {
+    width: 18px;
+    
+}
+
+.navegation{
+    background-color: #FFFFFF;
+    height: 20px;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    padding-top: 15px;
+    padding-left: 80px;
+}
+
+.link-field-classes, .link-help{
+    padding-left: 60px;
+}
+
+.navegation a{
+    text-decoration: none;   
+}
+
+.link-field-classes img{
+    width: 15px;
+}
+
+.link-home img{
+    width: 25px;
+}
+
+.link-help img{
+    width: 21px;
+}
+
+.link-field-classes, .link-help{
+    color: black;
+}
+
+.link-home {
+    color: green;
+}
+
+.logo{
+    float: left;
+}
+
+.logout {
+    background-color: white; 
+    color: #0C2A43;
+    padding: 8px 18px; 
+    border-color: #F1F1F1;
+    border-radius: 5px; 
+    font-size: 15px; 
+    font-weight: bold; 
+    margin-left: 750px;
+    
+}
+
+
+
