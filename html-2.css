@@ -1,0 +1,76 @@
+body {
+    font-family: 'Inter', sans-serif;
+    width: 1520px;
+}
+
+
+.bem-vindo {
+    margin-top: 200px;
+}
+
+.bem-vindo h2 {
+    font-size: 45px;
+    color: #0C2A43;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #F1F1F1;
+    padding-left: 200px; 
+}
+
+.description {
+    color: #666666;
+    font-size: 15px;
+    margin-bottom: 40px;
+    width: 245px;
+}
+
+h1 {
+    color: #0C2A43;
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.left {
+    margin-top: 20px;
+    padding: 40px;
+    position: absolute;
+}
+
+.button {
+    background-color: #12B76A;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo, .card-logo {
+    float: left;
+    padding: 10px;
+}
+
+.right {
+    padding-left: 500px;
+    padding-top: 75px;
+    padding-bottom: 145px;
+}
+
+.right img {
+    width: 500px;
+}
+
+.subtitle {
+    color: #656D77;
+    font-size: 14px;
+    margin-top: 5px;
+    width: 170px;
+}
