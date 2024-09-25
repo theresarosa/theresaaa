@@ -123,21 +123,22 @@ body {
     
 }
 
-
 .content {
-    width: 100%;
+    width: 150%;
+    float: left;
+    height: 390px;
     max-width: 600px; 
     background-color: white;
     padding: 20px;
     margin: 20px auto;
     border: 1px solid #ddd;
-    border-radius: 8px; 
+    border-radius: 0%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    float: left;
+    position: relative;
 }
 
 .count {
-    font-size: 50px;
+    font-size: 90px;
     color: #12b76a; 
     font-weight: bold;
     margin-bottom: 10px;
@@ -145,14 +146,14 @@ body {
 
 .aulas-campo {
     font-size: 24px;
-    color: #333; 
+    color: #333;
     font-weight: 700; 
     margin-bottom: 5px;
 }
 
 .subtitulo {
     font-size: 14px;
-    color: #666;
+    color: #666; 
     margin-bottom: 20px;
 }
 
@@ -187,7 +188,8 @@ body {
     font-size: 14px;
     font-weight: bold;
     margin-top: 20px;
-    width: 100%;
+    width: 30%;
+    float: right;
     transition: background-color 0.3s;
 }
 
@@ -200,20 +202,5 @@ body {
     color: #666;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
     padding-top: 10px;
-    border-top: 1px solid #eee;
-}
-
-.notificacao {
-    width: 100%;
-    max-width: 600px; 
-    background-color: white;
-    padding: 20px;
-    margin: 20px auto;
-    border: 1px solid #ddd;
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    float: right;
-
 }
