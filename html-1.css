@@ -10,11 +10,7 @@ body {
     width: 1520px;
 }
 
-.siscamp{
-    position: absolute;
-    padding-top: 2px;
-    padding-left: 20px;
-}
+
 
 
 .header {
@@ -24,6 +20,12 @@ body {
     align-items: center;
     height: 25px;
     position: relative;
+}
+
+.siscamp{
+    position: absolute;
+    padding-top: 2px;
+    padding-left: 20px;
 }
 
 .logo{
